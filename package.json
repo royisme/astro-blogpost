@@ -1,6 +1,6 @@
 {
   "name": "astro-paper-blogpost",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This command will create a new Astro project with a blog post and a date-fns date formatting example.",
   "main": "index.js",
   "scripts": {

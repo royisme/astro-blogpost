@@ -1,8 +1,8 @@
 ---
-title: "{{title}}"
+title: {{title}}
 author:
-pubDatetime: "{{date}}"
-slug: "{{slug}}"
+pubDatetime: {{date}}
+slug: {{slug}}
 featured: false
 draft: false
 ogImage: ""
