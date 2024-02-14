@@ -17,11 +17,13 @@ function getDistPath() {
 
 const createPost = (title: string, distPath: string) => {
   const postSlug = slug(title);
-  const date = format(new Date(), 'yyyy-MM-dd');
+  const date = new Date().toISOString();
   const templatePath = join(__dirname, '../src', 'templates', 'postTemplate.md');
   let content = readFileSync(templatePath, 'utf8');
 
-  content = content.replace(/{{title}}/g, title).replace(/{{date}}/g, date);
+  content = content.replace(/{{title}}/g, title)
+            .replace(/{{date}}/g, date)
+            .replace(/{{slug}}/g, postSlug);
 
   const filePath = join(distPath, `${postSlug}.md`);
   writeFileSync(filePath, content);
