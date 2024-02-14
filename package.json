@@ -1,6 +1,6 @@
 {
   "name": "astro-paper-blogpost",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This command will create a new Astro project with a blog post and a date-fns date formatting example.",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,7 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "typescript": "^5.3.3",
-    "github-slugger": "^2.0.0"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "date-fns": "^3.3.1",
