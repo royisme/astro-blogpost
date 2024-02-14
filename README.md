@@ -15,7 +15,7 @@ To install Astro Paper BlogPost, run the following command in your terminal:
 
 ```bash
 npm install astro-paper-blogpost
-
+```
 
 ## Feedback & Suggestions
 
